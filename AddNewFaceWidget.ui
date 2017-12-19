@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddNewFace</class>
+ <widget class="QDialog" name="AddNewFace">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>521</width>
+    <height>391</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="_nameLabel_">
+     <property name="text">
+      <string>姓名：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="_nameLineEdit_"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="_ageLabel_">
+     <property name="text">
+      <string>年龄：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="_ageLineEdit_"/>
+   </item>
+   <item row="2" column="1">
+    <widget class="QComboBox" name="_roleBox_"/>
+   </item>
+   <item row="3" column="1">
+    <widget class="QPushButton" name="_pictureBtn_">
+     <property name="text">
+      <string>选择照片</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="_pictureLabel_">
+     <property name="text">
+      <string>照片</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLabel" name="_pictureShowLabel_">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QPushButton" name="_undoBtn_">
+     <property name="text">
+      <string>取消</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2">
+    <widget class="QPushButton" name="_saveBtn_">
+     <property name="text">
+      <string>保存</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="_roleLabel_">
+     <property name="text">
+      <string>角色</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FaceInfoDatabaseWidget</class>
+ <widget class="QDialog" name="FaceInfoDatabaseWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>507</width>
+    <height>375</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" rowspan="4" colspan="3">
+    <widget class="QTableView" name="_faceInfoTableView_"/>
+   </item>
+   <item row="0" column="3">
+    <widget class="QPushButton" name="_submitChangeBtn_">
+     <property name="text">
+      <string>提交修改</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3">
+    <widget class="QPushButton" name="_undoChangeBtn_">
+     <property name="text">
+      <string>撤销修改</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QPushButton" name="addNewRecordBtn_">
+     <property name="text">
+      <string>添加记录</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="3">
+    <widget class="QPushButton" name="_deleteRecordBtn_">
+     <property name="text">
+      <string>删除选中行</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>姓名：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLineEdit" name="_nameEditLine_"/>
+   </item>
+   <item row="4" column="3">
+    <widget class="QPushButton" name="_ascondingSortById_">
+     <property name="text">
+      <string>按ID升序</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2">
+    <widget class="QPushButton" name="_showAllTable_">
+     <property name="text">
+      <string>显示全表</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="3">
+    <widget class="QPushButton" name="_descendingSortById_">
+     <property name="text">
+      <string>按ID降序</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2">
+    <widget class="QPushButton" name="_queryBtn_">
+     <property name="text">
+      <string>查询</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

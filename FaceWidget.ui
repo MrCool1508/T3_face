@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FaceWidget</class>
+ <widget class="QWidget" name="FaceWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FaceWidget</string>
+  </property>
+  <widget class="QPushButton" name="_newFaceBtn_">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>733</y>
+     <width>300</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>添加人脸</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="_video_">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>70</y>
+     <width>640</width>
+     <height>480</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="_editFaceInfo_">
+   <property name="geometry">
+    <rect>
+     <x>348</x>
+     <y>733</y>
+     <width>300</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>修改人脸库</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="_checkRecord_">
+   <property name="geometry">
+    <rect>
+     <x>686</x>
+     <y>733</y>
+     <width>300</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查看记录</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="_getVideo_">
+   <property name="geometry">
+    <rect>
+     <x>1025</x>
+     <y>733</y>
+     <width>300</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>获取视频</string>
+   </property>
+  </widget>
+  <zorder>_video_</zorder>
+  <zorder>_newFaceBtn_</zorder>
+  <zorder>_editFaceInfo_</zorder>
+  <zorder>_checkRecord_</zorder>
+  <zorder>_getVideo_</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
